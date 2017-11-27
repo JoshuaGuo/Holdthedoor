@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.noa098.holdbreath.MainActivity">
+
+    <Button
+        android:id="@+id/startBN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="36dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="37dp"
+        android:text="@string/start" />
+
+    <TextView
+        android:id="@+id/textHold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/startBN"
+        android:layout_alignLeft="@+id/startBN"
+        android:layout_alignRight="@+id/startBN"
+        android:layout_alignStart="@+id/startBN"
+        android:layout_below="@+id/startBN"
+        android:layout_marginTop="15dp"
+        android:text="@string/憋氣時間" />
+
+    <TextView
+        android:id="@+id/textRest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textHold"
+        android:layout_alignStart="@+id/textHold"
+        android:layout_below="@+id/textHold"
+        android:layout_marginTop="22dp"
+        android:text="@string/休息時間" />
+</RelativeLayout>
